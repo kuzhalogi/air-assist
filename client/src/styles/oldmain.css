@@ -1,0 +1,134 @@
+/* Basic Reset */
+/* Color Variables */
+:root {
+    --outer-space: #3e4e50ff;
+    --apricot: #785E26;
+    --fawn: #F3EADE;
+    --sandy-brown:#FFF8EF;
+    --sandy-brown-2: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    ove
+}
+li{
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    height: 70px; /* Adjust height as needed */
+    /* background-image: url('../assets/images/bran_wal.jpeg'); Replace with your image */
+    /* background: radial-gradient(circle, var(--outer-space), var(--apricot), var(--fawn), var(--sandy-brown), var(--sandy-brown-2)); */
+    background: var(--sandy-brown);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    max-width: 100px;
+}
+
+.header-content {
+    text-align: center;
+    padding: 2em;
+}
+
+/* Overlay Text Box */
+.header-text-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    color: #fff;
+    padding: 1.5em 2em;
+    border-radius: 8px;
+    max-width: auto;
+}
+
+.header-text-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.header-text-box p {
+    font-size: 1.2em;
+}
+
+/* Button Styling */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Service Card Styling */
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    color: #555;
+    font-size: 1em;
+}
