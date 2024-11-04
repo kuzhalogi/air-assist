@@ -42,7 +42,7 @@ header {
 .hero {
     position: relative; /* Position relative for absolute children */
     height: 600px; /* Set height for the hero section */
-    background-image: url('/client/src/assets/images/arng.jpeg'); /* Background image */
+    background-image: url('../assets/images/arng.jpeg'); /* Background image */
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the image */
     
